@@ -23,6 +23,14 @@ The methods used in this paper are:
 ##	Causal Boosting: 
 <div align= "justify">As we know, an alternative to a random forest for least squares regression is boosted trees, and boosting builds up a function approximation by successively fitting weak learners to the residuals of the model at each step, Powers et al. (2018) proposed causal boosting recently as an alternative to causal forests that adapts least squares boosting for regression (Friedman, 2001) to the problem of heterogeneous treatment effects estimation.</div> 
 
+## Package Used:
+* CausalLearning
+* CausalTree
+* CausalForest
+* dyplr
+* car
+* foreign
+* devtools (for installing packages those are not available in cran)
 
 ## Findings: 
 * <div align= "justify">From simulation studies we found that BART, causal forest and causal boosting perform consistently well for estimating child-specific CATEs (conditional risk differences) and overall significantly better than logistic regression, causal tree and causal transformed outcome tree.</div> 
